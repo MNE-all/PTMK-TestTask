@@ -47,5 +47,9 @@ myApp 5
 ```
 ---
 # Решение разработано на C# с применением Entity Framework Core (ORM)
+<image src="/Report/afterOptimize.jpg" alt="Скриншот до оптимизации">
+
+<image src="/Report/beforeOptimize.jpg" alt="Скриншот после оптимизации">
+
 
 
