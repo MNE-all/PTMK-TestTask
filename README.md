@@ -1,6 +1,6 @@
 ###  Тестовое задание (ПТМК) для прохождения первой ступени конкурса
 
-<h1 href="https://disk.yandex.ru/d/MOTd3nLnINeJuQ">Ссылка на готовый проект</h1>
+<a href="https://disk.yandex.ru/d/MOTd3nLnINeJuQ">Ссылка на готовый проект</a>
 
 # Задание:
 ```sh
