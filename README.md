@@ -57,7 +57,9 @@ myApp 5
 <image src="/Report/afterOptimize.jpg" alt="Скриншот до оптимизации">
 
 Время выполнения поиска после оптимизации: 00:00:02.4920193
+
 Запрос после оптимизации: var result = db.Staffs.Where(x => x.Surname.StartsWith("F") && x.Gender == "Male").ToList();
+
 <image src="/Report/beforeOptimize.jpg" alt="Скриншот после оптимизации">
 
 
