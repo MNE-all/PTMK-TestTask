@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTaskConsoleApp", "TestT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.Context", "TestTask.Context\TestTask.Context.csproj", "{2999B09A-D8FC-4638-8C1C-B96FD99AB72F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Report", "Report", "{FBB6952F-1E48-41B9-9314-A1884AFC3399}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Pictures\afterOptimize.jpg = ..\..\..\Pictures\afterOptimize.jpg
+		..\..\..\Pictures\beforeOptimize.jpg = ..\..\..\Pictures\beforeOptimize.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
