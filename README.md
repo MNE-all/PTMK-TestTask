@@ -47,8 +47,14 @@ myApp 5
 ```
 ---
 # Решение разработано на C# с применением Entity Framework Core (ORM)
+
+Задание 6:
+Время выполнения поиска до оптимизации: 00:00:03.1122167
+Запрос до оптимизации: var result = db.Staffs.Where(x => x.Gender == "Male" &&  x.Surname.StartsWith("F")).ToList();
 <image src="/Report/afterOptimize.jpg" alt="Скриншот до оптимизации">
 
+Время выполнения поиска после оптимизации: 00:00:02.4920193
+Запрос после оптимизации: var result = db.Staffs.Where(x => x.Surname.StartsWith("F") && x.Gender == "Male").ToList();
 <image src="/Report/beforeOptimize.jpg" alt="Скриншот после оптимизации">
 
 
